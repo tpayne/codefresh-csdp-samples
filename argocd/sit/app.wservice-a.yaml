@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: wservice-a-sit
+  labels:
+    app: wservice-a
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: cf-namspace  # required field - set to your CF Runtume namespace
+    name: in-cluster
+  project: wservice-a
+  source:
+    repoURL: https://github.com/tpayne/GitOps-samples.git
+    targetRevision: main
+    path: ./helm/wservice-a/sit  # Directory that contains the child apps
+    helm:
+      parameters:
+        - name: buildID
+          value: argocd
+      valueFiles:
+        - values.yaml
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      prune: true

@@ -1,0 +1,6 @@
+wscs:
+  image:
+    tag: "20e2d1dfcce1"
+wsnodejs:
+  image:
+    tag: "f8520f7fd6d9"
