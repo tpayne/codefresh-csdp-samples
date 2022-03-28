@@ -8,11 +8,11 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: cf-namspace  # required field - set to your CF Runtume namespace
+    namespace: codefresh  # required field - set to your CF Runtume namespace
     name: in-cluster
   project: wservice-b
   source:
-    repoURL: https://github.com/tpayne/GitOps-samples.git
+    repoURL: https://github.com/tpayne/codefresh-csdp-samples.git
     targetRevision: main
     path: ./helm/wservice-b/sit  # Directory that contains the child apps
     helm:
