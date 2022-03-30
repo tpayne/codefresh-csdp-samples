@@ -1,6 +1,6 @@
 wscs-deployment:
   image:
-    tag: "20e2d1dfcce1"
+    tag: "latest"
 wsnodejs-deployment:
   image:
-    tag: "f8520f7fd6d9"
+    tag: "master"
