@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: https://github.com/tpayne/codefresh-csdp-samples.git
     targetRevision: main
-    path: ./helm/wservice-b/sit  # Directory that contains the child apps
+    path: ./helm/sit  # Directory that contains the child apps
     helm:
       parameters:
         - name: buildID

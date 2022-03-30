@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: https://github.com/tpayne/codefresh-csdp-samples.git
     targetRevision: main
-    path: ./helm/wservice-b/qa  # Directory that contains the child apps
+    path: ./helm/qa  # Directory that contains the child apps
     helm:
       parameters:
         - name: buildID
