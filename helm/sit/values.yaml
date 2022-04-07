@@ -4,4 +4,4 @@ wscs-deployment:
     tag: "latest"
 wsnodejs-deployment:
   image:
-    tag: "95dbdb3"
+    tag: "445fcc2"
