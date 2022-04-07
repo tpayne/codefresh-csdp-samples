@@ -3,4 +3,4 @@ wscs-deployment:
     tag: "latest"
 wsnodejs-deployment:
   image:
-    tag: "master"
+    tag: "95dbdb3"
