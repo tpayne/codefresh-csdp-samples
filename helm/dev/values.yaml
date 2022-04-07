@@ -4,5 +4,3 @@ wscs-deployment:
 wsnodejs-deployment:
   image:
     tag: "7822502"
-
-
