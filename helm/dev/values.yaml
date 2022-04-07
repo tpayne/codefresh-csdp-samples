@@ -1,9 +1,7 @@
+# Test
 wscs-deployment:
   image:
     tag: "latest"
 wsnodejs-deployment:
   image:
     tag: "7822502"
-
-
-
