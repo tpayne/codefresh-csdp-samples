@@ -10,3 +10,6 @@ wsnodejs-deployment:
 wsnodejs-b-deployment:
   image:
     tag: "master"
+jenkinscd-framework-deployment:
+  image:
+    tag: "latest"
