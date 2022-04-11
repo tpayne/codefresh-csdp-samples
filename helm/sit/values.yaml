@@ -1,6 +1,12 @@
 wscs-deployment:
   image:
     tag: "latest"
+wscs-b-deployment:
+  image:
+    tag: "latest"
 wsnodejs-deployment:
   image:
     tag: "ded9ae5"
+wsnodejs-b-deployment:
+  image:
+    tag: "master"
