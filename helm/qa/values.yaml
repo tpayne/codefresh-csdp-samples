@@ -6,7 +6,7 @@ wscs-b-deployment:
     tag: "latest"
 wsnodejs-deployment:
   image:
-    tag: "ded9ae5"
+    tag: "ecc105e"
 wsnodejs-b-deployment:
   image:
     tag: "master"
