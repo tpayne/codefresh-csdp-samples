@@ -13,6 +13,6 @@ dependencies:
   - name: wscs-b-deployment
     version: "0.1.0"
     repository: "https://raw.githubusercontent.com/tpayne/kubernetes-examples/main/Helm/wscs-b-deployment"
-  - name: wsnodejs-b--deployment
+  - name: wsnodejs-b-deployment
     version: "0.1.0"
     repository: "https://raw.githubusercontent.com/tpayne/kubernetes-examples/main/Helm/wsnodejs-b-deployment"
