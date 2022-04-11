@@ -6,10 +6,10 @@ wscs-b-deployment:
     tag: "latest"
 wsnodejs-deployment:
   image:
-    tag: "37d0604"
+    tag: "c35210b"
 wsnodejs-b-deployment:
   image:
     tag: "master"
 jenkinscd-framework-deployment:
   image:
-    tag: "latest"
+    tag: "sha256:4196978b99f45822bfa5de1a572a87b4de5af4a4b43cb2d34962f72ba48ff41b"
