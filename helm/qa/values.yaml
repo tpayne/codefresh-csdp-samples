@@ -13,3 +13,4 @@ wsnodejs-b-deployment:
 jenkinscd-framework-deployment:
   image:
     tag: "sha256:efb301e74e13a8fbe6caa69b3a48c807222264ee7b33aa4983a7c016c46251bd"
+
