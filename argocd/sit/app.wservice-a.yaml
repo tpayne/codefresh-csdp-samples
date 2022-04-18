@@ -8,7 +8,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: sit  # required field - set to your CF Runtume namespace
+    namespace: codefresh  # required field - set to your CF Runtume namespace
     name: in-cluster
   project: wservice-a
   source:
