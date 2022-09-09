@@ -12,4 +12,4 @@ wsnodejs-b-deployment:
     tag: "master"
 jenkinscd-framework-deployment:
   image:
-    tag: "sha256:72d330f7d0c784f6822cb2b78dc0ad035a29a286efdb872adf808a0adfc4281f"
+    tag: "sha256:34265f5d2ae298fd0f1a76f08ddcc7ac12c36921bd506fe8aa8422a024232f1e"
